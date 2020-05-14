@@ -13,6 +13,8 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 @Controller
 @RequestMapping("/download")
@@ -40,7 +42,6 @@ public class ReportController {
                                     HttpServletResponse response,
                                     @PathVariable("fileName") String fileName) {
         //If user is not authorized - he should be thrown out from here itself
-
         //Authorized user will download the file
         String dataDirectory = request.getServletContext().getRealPath("/WEB-INF/downloads/pdf/");
         Path file = Paths.get(dataDirectory, fileName);

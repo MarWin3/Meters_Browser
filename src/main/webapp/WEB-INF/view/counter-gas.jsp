@@ -41,7 +41,7 @@
 	         <br>
 		            <div class="justify-content-center" style:"width:100%" >
 			         <table class="table-striped table-responsive table-light" style:"width:50%; margin: 0 auto;" >
-				            <p>Liczniki elektryczne</p>
+				            <p>Liczniki gazu</p>
 				     <tr>
 					    <th class="p-0">Serial number</th>
 					    <th class="p-0">Location</th>
@@ -53,7 +53,7 @@
 					    <th class="p-3">Action</th>
 				    </tr>
 
-				    <c:forEach var="tempWat" items="${elek}">
+				    <c:forEach var="tempWat" items="${gas}">
 					    <c:url var="specCounterLink" value="/counter/showSpecCounter">
 						<c:param name="counterSerialNumber"
 							value="${tempWat.counterSerialNumber}"></c:param>

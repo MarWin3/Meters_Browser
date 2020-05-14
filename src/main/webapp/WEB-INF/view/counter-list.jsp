@@ -21,22 +21,21 @@
             <div class="col-sm-2 border p-10 position-relative">
             <br>
 		        <ul class="position-fixed">
-			        <li><a href="#"><img
+			        <li><a href="counter/list"><img
                     src="<c:url value="/resources/image/all_counters.png"></c:url>">Wszystkie</a></li>
 			        <li><a href="counter/electricity"><img
 					src="<c:url value="/resources/image/electric.png"></c:url>">Elektryczne</a></li>
-			        <li><a href="#"><img
+			        <li><a href="counter/water"><img
 					src="<c:url value="/resources/image/water.png"></c:url>">Wodomierze</a></li>
-			        <li><a href="#"><img
+			        <li><a href="counter/heat"><img
 					src="<c:url value="/resources/image/heat.png"></c:url>">Ciepło</a></li>
-			        <li><a href="#"><img
+			        <li><a href="counter/cold"><img
 					src="<c:url value="/resources/image/cold.png"></c:url>">Chłód</a></li>
-			        <li><a href="#"><img
+			        <li><a href="counter/gas"><img
 					src="<c:url value="/resources/image/gas.png"></c:url>">Gaz</a></li>
 					 <li><a href="download/reports"><img
                     src="<c:url value="/resources/image/report.png"></c:url>">Raporty</a></li>
-					<a href="JasperReport/images/sauter_logo.jpeg" download>Pobierz</a>
-		        </ul>
+				</ul>
 	        </div>
 	         <div class="col-sm-10 border justify-content-center text-center position-relative" style="overflow:scroll; overflow-x:hidden; height:900px">
 	         <br>
